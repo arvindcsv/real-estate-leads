@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/real-estate.iml" filepath="$PROJECT_DIR$/.idea/real-estate.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/../property-landing-page/.idea/property-landing-page.iml" filepath="$PROJECT_DIR$/../property-landing-page/.idea/property-landing-page.iml" />
+>>>>>>> 1d4913f (Initial commit: Real Estate Landing Page with Multi-Page Structure and Jargon Buster)
     </modules>
   </component>
 </project>
