@@ -26,25 +26,14 @@
         /* Import a clean sans-serif font */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; }
+        
+        /* Hide scrollbar for image carousels */
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
     </style>
-
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'YOUR_PIXEL_ID'); /* Replace YOUR_PIXEL_ID with your actual Meta Pixel ID */
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased selection:bg-gold selection:text-sapphire">
 
@@ -52,7 +41,7 @@
     <header class="bg-sapphire text-silver sticky top-0 z-50 shadow-lg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div>
-                <h1 class="text-2xl font-bold tracking-tight text-white">RAS <span class="text-gold">Real Estate</span></h1>
+                <h1 class="text-2xl font-bold tRASking-tight text-white">RAS <span class="text-gold">Real Estate</span></h1>
                 <p class="text-xs uppercase tracking-wider mt-1 text-silver/80">Premium Real Estate Advisory | Consultancy | Efficiency | Trust</p>
             </div>
             <a href="#contact" class="hidden md:inline-flex bg-gold hover:bg-darkgold text-sapphire font-semibold py-2 px-6 rounded-full transition-colors duration-300">
@@ -133,31 +122,86 @@
         </div>
     </section>
 
-    <!-- Project Showcase Placeholder -->
+    <!-- Project Showcase -->
     <section class="py-20 bg-sapphire text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
-                <div class="w-full md:w-1/2">
-                    <h2 class="text-3xl md:text-4xl font-bold text-silver mb-6">Premium Project Showcase</h2>
-                    <p class="text-silver/80 mb-8 text-lg">Discover exclusive layouts and world-class amenities designed for the modern lifestyle in Pune and Thane.</p>
-                    <button class="bg-transparent border-2 border-gold text-gold hover:bg-gold hover:text-sapphire font-bold py-3 px-8 rounded-full transition-all duration-300">
-                        View Floor Plans
-                    </button>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-silver mb-4">Premium Project Showcase</h2>
+                <div class="w-24 h-1 bg-gold mx-auto rounded"></div>
+                <p class="text-silver/80 mt-6 text-lg max-w-2xl mx-auto">Discover exclusive layouts and world-class amenities designed for the modern lifestyle.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project Card: L&T Panvel -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-xl transform hover:-translate-y-2 transition-transform duration-300 group">
+                    <div class="h-48 relative overflow-hidden flex border-b">
+                        <!-- Image Carousel -->
+                        <div class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar w-full h-full relative">
+                            <img src="assets/images/projects/lt_panvel/image1.jpg" alt="L&T Panvel Image 1" class="w-full h-full object-cover shrink-0 snap-center transition-transform duration-700 group-hover:scale-105">
+                            <img src="assets/images/projects/lt_panvel/image2.jpg" alt="L&T Panvel Image 2" class="w-full h-full object-cover shrink-0 snap-center transition-transform duration-700 group-hover:scale-105">
+                            <img src="assets/images/projects/lt_panvel/image3.jpg" alt="L&T Panvel Image 3" class="w-full h-full object-cover shrink-0 snap-center transition-transform duration-700 group-hover:scale-105">
+                        </div>
+                        <div class="absolute inset-0 bg-sapphire/10 pointer-events-none group-hover:bg-sapphire/0 transition-colors z-0"></div>
+                        <div class="absolute top-4 left-4 z-10 pointer-events-none">
+                            <span class="bg-gold text-sapphire text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow">Grand Launch</span>
+                        </div>
+                        <div class="absolute bottom-2 right-2 z-10 pointer-events-none bg-black/60 text-white text-[10px] px-2 py-1 rounded-full backdrop-blur-sm">
+                            Swipe ➡️
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-sapphire mb-2">L&T Panvel Phase 1</h3>
+                        <p class="text-gray-600 mb-4 text-sm flex items-center">
+                            <svg class="w-4 h-4 text-gold mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Panvel, 35-Acre Mega Development
+                        </p>
+                        <div class="flex justify-between items-center border-t border-gray-100 pt-4 mb-6">
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase">Configuration</p>
+                                <p class="font-bold text-sapphire">2, 3 & 4 BHK</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-xs text-gray-500 uppercase">Starting At</p>
+                                <p class="font-bold text-sapphire">₹17,500/sqft</p>
+                            </div>
+                        </div>
+                        <a href="property-lt-panvel.html" class="block w-full text-center bg-transparent border-2 border-sapphire text-sapphire hover:bg-sapphire hover:text-white font-bold py-2 rounded-lg transition-colors duration-300">
+                            View Details
+                        </a>
+                    </div>
                 </div>
-                <div class="w-full md:w-1/2 flex justify-center">
-                    <!-- SVG Luxury Tower Placeholder -->
-                    <svg class="w-64 h-auto text-gold/80 drop-shadow-2xl" viewBox="0 0 100 120" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20 120 V30 L50 10 L80 30 V120 Z" fill="#0B203C" stroke="currentColor" stroke-width="2"/>
-                        <rect x="30" y="40" width="10" height="15" fill="currentColor" opacity="0.8"/>
-                        <rect x="60" y="40" width="10" height="15" fill="currentColor" opacity="0.3"/>
-                        <rect x="30" y="65" width="10" height="15" fill="currentColor" opacity="0.5"/>
-                        <rect x="60" y="65" width="10" height="15" fill="currentColor" opacity="0.8"/>
-                        <rect x="30" y="90" width="10" height="15" fill="currentColor" opacity="0.4"/>
-                        <rect x="60" y="90" width="10" height="15" fill="currentColor" opacity="0.9"/>
-                        <polygon points="50,10 20,30 80,30" fill="currentColor" opacity="0.5"/>
-                        <line x1="20" y1="120" x2="80" y2="120" stroke="currentColor" stroke-width="4"/>
-                    </svg>
+
+                <!-- Project Card: VAKRATUNDA -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-xl transform hover:-translate-y-2 transition-transform duration-300 group">
+                    <div class="h-48 bg-gray-200 relative overflow-hidden flex items-center justify-center border-b">
+                        <img src="assets/images/projects/vakratunda_thane/REPLACE_WITH_YOUR_EXACT_IMAGE_NAME.jpg" alt="VAKRATUNDA Project" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-sapphire/10 group-hover:bg-sapphire/0 transition-colors z-0"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-sapphire mb-2">VAKRATUNDA</h3>
+                        <p class="text-gray-600 mb-4 text-sm flex items-center">
+                            <svg class="w-4 h-4 text-gold mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Kolshet Road, Thane (W)
+                        </p>
+                        <div class="flex justify-between items-center border-t border-gray-100 pt-4 mb-6">
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase">Configuration</p>
+                                <p class="font-bold text-sapphire">1 & 2 BHK</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-xs text-gray-500 uppercase">Starting At</p>
+                                <p class="font-bold text-sapphire">₹79.99 L+</p>
+                            </div>
+                        </div>
+                        <a href="property-vakratunda.html" class="block w-full text-center bg-transparent border-2 border-sapphire text-sapphire hover:bg-sapphire hover:text-white font-bold py-2 rounded-lg transition-colors duration-300">
+                            View Details
+                        </a>
+                    </div>
                 </div>
+
+                <!-- Add more cards here for future projects -->
+
             </div>
         </div>
     </section>
@@ -172,9 +216,11 @@
                         <p class="text-gray-600 text-lg">Share your requirement. We respect your time. <strong class="text-sapphire">Expect a call in 5 minutes.</strong></p>
                     </div>
                     
-                    <!-- Formspree Endpoint: Replace YOUR_FORM_ID with the actual ID from Formspree. Onsubmit fires the Meta Pixel Lead event -->
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6" onsubmit="fbq('track', 'Lead');">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                        <!-- Replace with your Access Key -->
+                        <input type="hidden" name="access_key" value="f4059761-a8bc-4bb6-93f0-9058239575e4">
                         <input type="hidden" name="subject" value="New Lead from RAS Real Estate Landing Page">
+                        <input type="hidden" name="from_name" value="RAS Real Estate Leads">
                         
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
@@ -219,8 +265,6 @@
                     <h3 class="text-xl font-bold text-white mb-4">RAS <span class="text-gold">Real Estate</span></h3>
                     <p class="text-sm text-silver/80 mb-2">RAS Real Estate is an Authorized Online Channel Partner.</p>
                     <p class="text-sm text-silver/80 max-w-md">Providing premium advisory, consultancy, and unmatched efficiency to help you find your beautifully perfect home in Pune and Thane.</p>
-                    <p class="text-sm text-gold mt-4 font-semibold">Agent RERA ID: AXXXXXXXXXXX</p>
-                    <p class="text-sm text-gold font-semibold">Project RERA ID: PXXXXXXXXXXX</p>
                 </div>
                 <div class="md:text-right">
                     <h4 class="text-lg font-semibold text-white mb-4">MahaRERA Compliance</h4>
