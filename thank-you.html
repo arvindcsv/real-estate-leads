@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | RAS Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        // REPLACE G-XXXXXXXXXX with your actual GA4 Measurement ID
+        gtag('config', 'G-XXXXXXXXXX'); 
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        
+        // REPLACE YOUR_PIXEL_ID with your actual Meta Pixel ID
+        fbq('init', 'YOUR_PIXEL_ID'); 
+        fbq('track', 'PageView');
+        // THIS IS THE CRUCIAL LINE FOR TRACKING LEADS
+        fbq('track', 'Lead');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen">
+
+    <div class="max-w-md w-full bg-white p-8 rounded-2xl shadow-xl text-center border border-gray-100 mx-4">
+        <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+        </div>
+        <h1 class="text-3xl font-bold text-[#0B203C] mb-4">Thank You!</h1>
+        <p class="text-gray-600 mb-8 text-lg">Your details have been securely received. Our expert will call you within the next <strong class="text-[#0B203C]">5 minutes</strong> to share the pricing and floor plans.</p>
+        
+        <a href="index.html" class="inline-block w-full bg-[#D4AF37] hover:bg-[#B5952F] text-[#0B203C] font-bold py-3 px-6 rounded-lg transition-colors duration-300">
+            Return to Homepage
+        </a>
+    </div>
+</body>
+</html>

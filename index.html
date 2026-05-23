@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAS Real Estate | Premium Real Estate Advisory</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        // REPLACE G-XXXXXXXXXX with your actual GA4 Measurement ID
+        gtag('config', 'G-XXXXXXXXXX'); 
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        
+        // REPLACE YOUR_PIXEL_ID with your actual Meta Pixel ID
+        fbq('init', 'YOUR_PIXEL_ID'); 
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
     <script>
         tailwind.config = {
             theme: {
@@ -221,6 +253,7 @@
                         <input type="hidden" name="access_key" value="f4059761-a8bc-4bb6-93f0-9058239575e4">
                         <input type="hidden" name="subject" value="New Lead from RAS Real Estate Landing Page">
                         <input type="hidden" name="from_name" value="RAS Real Estate Leads">
+                        <input type="hidden" name="redirect" value="https://rasrealestate.in/thank-you.html">
                         
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
