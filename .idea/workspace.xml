@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="clean up" />
+    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="clean up">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property-lt-panvel.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-lt-panvel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property-vakratunda.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-vakratunda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-estate.html" beforeDir="false" afterPath="$PROJECT_DIR$/real-estate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779550627626</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="clean up">
+      <option name="closed" value="true" />
+      <created>1779551055624</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1779551055624</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
