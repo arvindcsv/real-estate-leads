@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="prepared an landing page and pdp">
+    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="changed the name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779197726396</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed the name">
+      <option name="closed" value="true" />
+      <created>1779545033262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779545033262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prepared an landing page and pdp" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepared an landing page and pdp" />
+    <MESSAGE value="changed the name" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
