@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="added tracking and thank you page">
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/context.md" beforeDir="false" afterPath="$PROJECT_DIR$/context.md" afterDir="false" />
+    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="added meta pixel code">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/property-lt-panvel.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-lt-panvel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/property-vakratunda.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-vakratunda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-estate.html" beforeDir="false" afterPath="$PROJECT_DIR$/real-estate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779548786012</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added meta pixel code">
+      <option name="closed" value="true" />
+      <created>1779550223020</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779550223020</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +204,8 @@
     <MESSAGE value="added config file" />
     <MESSAGE value="added domain" />
     <MESSAGE value="added tracking and thank you page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tracking and thank you page" />
+    <MESSAGE value="added meta pixel code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added meta pixel code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

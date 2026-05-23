@@ -6,43 +6,11 @@
     <title>VAKRATUNDA - Kolshet Road | RAS Real Estate</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Meta Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        
-        fbq('init', '1022617387099045'); 
-        fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1022617387099045&ev=PageView&noscript=1"/>
-    </noscript>
-    <!-- End Meta Pixel Code -->
+    <!-- Global Tracking (Meta & GA4) -->
+    <script src="assets/js/tracking.js"></script>
 
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        sapphire: '#0B203C',
-                        silver: '#E8E8E8',
-                        gold: '#D4AF37',
-                        darkgold: '#B5952F'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Global Tailwind Config -->
+    <script src="assets/js/tailwind-config.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; }
@@ -71,12 +39,17 @@
         </div>
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <span class="inline-block py-1 px-3 rounded-full bg-red-600 text-white text-xs font-bold uppercase tracking-wider mb-4 animate-pulse">Priority Reservations Open</span>
+            <span class="inline-block py-1 px-3 rounded-full bg-red-600 text-white text-xs font-bold uppercase tracking-wider mb-4 animate-pulse">Pre-Launch: Launching June End</span>
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-white">
                 VAKRATUNDA
             </h2>
             <div class="inline-block bg-gold text-sapphire px-4 py-2 rounded-lg font-bold text-sm md:text-base mb-6 shadow-lg">
-                🎁 Reserve today & get PRR benefits worth up to ₹10 Lacs!
+                🎁 Submit your 
+                <button type="button" onclick="showJargon('EOI (Expression of Interest)', '<strong>What it means:</strong> A fully refundable token amount paid before the official launch.<br><br><strong>Why it matters:</strong> Submitting an EOI guarantees you the absolute lowest entry price and priority unit selection before the property is opened to the general public.')" class="inline-flex items-center gap-1 font-bold underline decoration-dashed decoration-sapphire underline-offset-4 hover:opacity-80 transition-colors">
+                    EOI
+                    <svg class="w-4 h-4 text-sapphire" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </button>
+                today & get PRR benefits worth up to ₹10 Lacs!
             </div>
             <p class="text-xl md:text-2xl text-silver/90 max-w-2xl font-light mb-6 flex items-center gap-2">
                 <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
@@ -205,6 +178,10 @@
                                 <svg class="w-6 h-6 text-gold mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                                 <p class="text-gray-700"><strong>Ecosystem:</strong> Close to Top Schools, Hospitals & Business Hubs.</p>
                             </div>
+                            <div class="flex items-start">
+                                <svg class="w-6 h-6 text-gold mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <p class="text-gray-700"><strong>Neighborhood:</strong> Walking distance to D-Mart, situated near premium developments like Neelkantha.</p>
+                            </div>
                         </div>
                     </div>
                     
@@ -239,12 +216,12 @@
                                 
                                 <div>
                                     <label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
-                                    <input type="text" name="name" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sapphire focus:border-sapphire outline-none transition-colors" placeholder="John Doe">
+                                    <input type="text" name="name" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sapphire focus:border-sapphire outline-none transition-colors" placeholder="John Doe" data-config="agentName">
                                 </div>
                                 
                                 <div>
                                     <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number <span class="text-red-500">*</span></label>
-                                    <input type="tel" name="phone" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sapphire focus:border-sapphire outline-none transition-colors" placeholder="+91 98765 43210">
+                                    <input type="tel" name="phone" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sapphire focus:border-sapphire outline-none transition-colors" placeholder="+91 98765 43210" data-config="supportPhone">
                                 </div>
 
                                 <div>
@@ -276,6 +253,7 @@
                 <div>
                     <h3 class="text-xl font-bold text-white mb-4">RAS <span class="text-gold">Real Estate</span></h3>
                     <p class="text-sm text-silver/80 mb-2">RAS Real Estate is an Authorized Online Channel Partner.</p>
+                    <p class="text-sm font-semibold text-gold mb-2">Support: <a href="#" data-config="supportPhone"></a> | <span data-config="supportEmail"></span></p>
                     <p class="text-sm text-silver/80">Project RERA No: <span class="text-gold font-bold">[INSERT RERA NUMBER HERE]</span></p>
                 </div>
                 <div class="md:text-right">
@@ -323,5 +301,8 @@
             document.getElementById('jargon-modal-content').classList.add('scale-95');
         }
     </script>
+
+    <!-- Utility Scripts -->
+    <script src="assets/js/config.js"></script>
 </body>
 </html>

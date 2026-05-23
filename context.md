@@ -9,7 +9,9 @@
 Generate high-quality, verified real estate leads for a brokerage partner operating as an **Authorized Online Channel (AOC)**.
 - **Target Market:** Highly competitive micro-markets (e.g., Pune, Thane).
 - **Core Goal:** Minimize CPL (Cost Per Lead) while maximizing "Site Visit" conversions.
-- **Budget:** Low-budget optimization (Target: ₹1,000 - ₹2,000 daily spend per project).
+- **Budget Allocation:** 
+    - ₹1,000 daily budget for the Lead Generation campaign.
+    - ₹500 daily budget for the Awareness + Retargeting campaign.
 
 ---
 
@@ -38,6 +40,16 @@ Generate high-quality, verified real estate leads for a brokerage partner operat
 - **Ad Creative:** POV walk-through videos + Carousel property tours.
 - **Retargeting:** "Stacked Audience" (30-day window) including website visitors and video viewers.
 - **Exclusion:** Dynamic exclusion of existing leads to save budget.
+
+---
+
+## 🏢 Active Projects & Micro-Market Context
+**Project: VAKRATUNDA (Kolshet Road, Thane)**
+- **Status:** Launch by June End.
+- **Sales Model:** Xanadu source selling.
+- **Location Highlights:** Nearby D-Mart.
+- **Competitive Landscape:** Properties near Vakratunda include Neelkantha.
+- **Key Terminology:** EOI (Expression of Interest) - Needs to be clearly explained to buyers to drive pre-launch hype.
 
 ---
 
@@ -83,4 +95,3 @@ EOI - expression of interest
 Launch by = June end 
 
 xanado source selling
-
