@@ -1,7 +1,7 @@
 // Global Configuration for RAS Real Estate
 const SiteConfig = {
-    agentName: "John Doe",
-    supportPhone: "+91 98765 43210",
+    agentName: "Anand Kumar",
+    supportPhone: "+91 91377 09503",
     supportEmail: "contact@ras.com",
     reraId: "A123456789" // Example RERA ID for compliance
 };

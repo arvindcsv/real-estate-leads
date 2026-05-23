@@ -41,6 +41,13 @@ Generate high-quality, verified real estate leads for a brokerage partner operat
 
 ---
 
+## 🧠 Educational UX Strategy (Jargon-Buster)
+- **Problem:** Real estate jargon (e.g., "Freehold", "Podium", "Spanish Theme") confuses buyers and breaks trust.
+- **Solution:** Every technical term MUST have an interactive, educational explanation.
+- **Implementation:** Use tap-friendly, dashed-underline text with an 'info' icon that triggers a clean pop-up modal. The modal must explain exactly what the term means and what it physically looks like in a generalized way, keeping users engaged without feeling lost.
+
+---
+
 ## ⚖️ Legal & Compliance (RERA)
 - **Mandatory:** Every ad creative and landing page MUST display the **Project RERA Number** and the **MahaRERA Website URL**.
 - **Bio/About:** All Social Media pages must list the **Agent RERA ID** of the brokerage partner.
@@ -56,8 +63,24 @@ Generate high-quality, verified real estate leads for a brokerage partner operat
 ---
 
 ## 🚀 Immediate Action Items
-- [x] Deploy `index.html` to GitHub Pages.
+- [ ] Deploy `index.html` to GitHub Pages.
 - [ ] Connect Formspree endpoint to the lead form.
-- [x] Verify Meta Pixel is firing 'PageView' and 'Lead' events. (Code added, needs Pixel ID replacement)
+- [ ] Verify Meta Pixel is firing 'PageView' and 'Lead' events.
 - [ ] Design 3 creative variations for the AOC project.
 - [ ] Brief Employee 2 on the Lead Qualification Script.
+
+
+1000 daily budget for the lead campaign
+500 for the awareness + retargeting campaign
+
+Properties Near Vakratunda 
+Neelkantha, 
+
+Near by D Mart
+
+EOI - expression of interest
+
+Launch by = June end 
+
+xanado source selling
+
