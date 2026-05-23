@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="added meta pixel code">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property-lt-panvel.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-lt-panvel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property-vakratunda.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-vakratunda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real-estate.html" beforeDir="false" afterPath="$PROJECT_DIR$/real-estate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
-    </list>
+    <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="clean up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779550223020</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="clean up">
+      <option name="closed" value="true" />
+      <created>1779550627626</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779550627626</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +207,8 @@
     <MESSAGE value="added domain" />
     <MESSAGE value="added tracking and thank you page" />
     <MESSAGE value="added meta pixel code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added meta pixel code" />
+    <MESSAGE value="clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
