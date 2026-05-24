@@ -12,6 +12,13 @@
     
     <!-- Global Tracking (Meta & GA4) -->
     <script src="assets/js/tracking.js"></script>
+    
+    <!-- Fire Meta Pixel Lead Event ONLY on Thank You Page -->
+    <script>
+        if (typeof fbq === 'function') {
+            fbq('track', 'Lead');
+        }
+    </script>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
