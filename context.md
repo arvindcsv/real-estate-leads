@@ -29,6 +29,7 @@ Generate high-quality, verified real estate leads for a brokerage partner operat
 - **Lead Capture:** 
     - Meta Instant Forms (Direct) 
     - Custom Form -> Formspree.io (Serverless) -> Google Sheets.
+    - Custom Form -> Web3Forms (Serverless) -> Email / Google Sheets.
 - **Tracking:** Meta Pixel + Conversions API (CAPI) for 2026 privacy-safe tracking.
 
 ---

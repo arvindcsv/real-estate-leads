@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="501cde91-fee7-44ed-860c-c606c5ac0d5b" name="Changes" comment="live domain">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property-vakratunda.html" beforeDir="false" afterPath="$PROJECT_DIR$/property-vakratunda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/context.md" beforeDir="false" afterPath="$PROJECT_DIR$/context.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779631619781</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="live domain">
+      <option name="closed" value="true" />
+      <created>1779632911503</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632911503</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
