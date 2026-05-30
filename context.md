@@ -25,6 +25,7 @@ Generate high-quality, verified real estate leads for a brokerage partner operat
 
 ## 🛠️ Technical Stack
 - **Frontend:** Single-page mobile-first landing page (HTML5 / Tailwind CSS).
+- **UI Standards:** All property pages use a unified standalone Tailwind config injected in `<head>` with consistent layout blocks (Hero, 2x2 Gallery, Sticky Lead Form).
 - **Hosting:** GitHub Pages (Real-time deployment flow via `git push`).
 - **Lead Capture:** 
     - Meta Instant Forms (Direct) 
