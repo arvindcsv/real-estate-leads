@@ -18,7 +18,7 @@ Generate high-quality, verified real estate leads for a brokerage partner operat
 ## 👥 Team & Workflows
 1. **Arvind (Lead):** Technical architecture, Meta Pixel/CAPI setup, GitHub deployment, and high-level strategy.
 2. **Employee 1 (Ad Ops):** Meta/Instagram page management and creative testing (Videos/Carousels).
-3. **Employee 2 (SDR):** **The 5-Minute Rule.** Responsible for calling leads within 5 minutes to qualify budget and intent.
+3. **Employee 2 (SDR):** Responsible for calling leads promptly to qualify budget and intent.
 4. **Employee 3 (Closer):** Scheduling site visits and coordinating with the brokerage team.
 
 ---
